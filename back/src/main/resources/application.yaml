@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: visiter
+    password: buzao@12345
+    url: jdbc:mysql://localhost:3306/hrs?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 55555

@@ -1,0 +1,47 @@
+.usermenuunload {
+    opacity: 0;
+    z-index: 20;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: -30px;
+}
+
+.usermenuload {
+    opacity: 0;
+    z-index: 20;
+    background-color: aliceblue;
+    height: 60px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: -30px;
+}
+
+#username {
+    position: relative;
+    margin: 10px 0 0 0;
+}
+
+#username:hover .usermenuunload {
+    opacity: 1;
+}
+
+#username:hover .usermenuload {
+    opacity: 1;
+}
+
+.login-rapper {
+    z-index: 1100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
